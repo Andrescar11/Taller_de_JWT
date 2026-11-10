@@ -1,0 +1,38 @@
+## Ignorar archivos generados por compilación
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.idea/
+
+## Resultados de test y cobertura
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+
+## Paquetes y artefactos
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Secretos locales (no subir claves reales)
+appsettings.*.local.json
+secrets.json
+.env
